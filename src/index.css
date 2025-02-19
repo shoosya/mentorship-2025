@@ -1,0 +1,35 @@
+.container {
+  position: relative;
+  width: 600px;
+  height: 400px;
+}
+
+.back-rectangle {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-image: url('./images/ikra.jpeg');
+  background-size: cover;
+  top: 100px;
+  left: 280px;
+}
+
+.front-rectangle {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  top: -350px;
+  left: -80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.front-rectangle p {
+  margin: 20px;
+}
